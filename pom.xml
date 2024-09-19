@@ -13,7 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>mystore</name>
 	<description>Sample e-commerce project using Spring Cloud and microservice approach</description>
-	<url/>
+	<url>https://github.com/adizafri2000/mystore</url>
 	<packaging>pom</packaging>
 
 	<properties>
