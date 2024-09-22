@@ -5,9 +5,18 @@ spring:
     config:
       server:
         git:
-          uri: file://config-repo
+#          uri: file:///${user.dir}/config-server/config-repo
           clone-on-start: true
+          default-label: master
+          username: ${GIT_USERNAME}
+          password: ${GIT_PERSONAL_ACCESS_TOKEN}
+          uri: ${CONFIG_REPO_URL}
 
 server:
   port: 8888
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'refresh'
