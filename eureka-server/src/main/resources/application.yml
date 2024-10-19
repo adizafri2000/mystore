@@ -1,6 +1,8 @@
 spring:
   application:
     name: eureka-server
+  config:
+    import: optional:configserver:http://localhost:8888  # Make the config server optional
 
 server:
   port: 8761
@@ -9,5 +11,3 @@ eureka:
   client:
     registerWithEureka: false
     fetchRegistry: false
-  server:
-    enableSelfPreservation: false
