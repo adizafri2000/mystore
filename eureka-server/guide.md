@@ -33,7 +33,7 @@ The Eureka Server plays a crucial role in a microservices architecture by provid
 
 ### **Example Scenario**
 
-Imagine a microservices architecture with services like `user-service`, `order-service`, and `inventory-service`. Instead of hardcoding the endpoints for each service, the services register themselves with Eureka.
+Imagine a microservices architecture with services like `customer-service`, `order-service`, and `inventory-service`. Instead of hardcoding the endpoints for each service, the services register themselves with Eureka.
 
 - **When `order-service` wants to call `inventory-service`**, it queries Eureka for the current instances of `inventory-service`. Eureka responds with a list of available instances.
 - **When `inventory-service` scales up**, new instances register themselves with Eureka, and clients can start using these new instances automatically.

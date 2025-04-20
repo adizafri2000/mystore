@@ -89,4 +89,3 @@ The `application.yml` file configures the API Gateway to:
 3. Enable automatic route creation based on service discovery.
 4. Register with a Eureka Server for service discovery.
 5. Run on port `8080`.
-```

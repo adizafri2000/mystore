@@ -16,7 +16,7 @@ The overall project will be a **microservices-based e-commerce platform** that i
 3. **Customer Service**:
     - Manages customer profiles.
     - Registered with Eureka for service discovery.
-    - Stores customer-related information and exposes APIs for user management.
+    - Stores customer-related information and exposes APIs for customer management.
 
 4. **Inventory Service**:
     - Manages product stock levels.

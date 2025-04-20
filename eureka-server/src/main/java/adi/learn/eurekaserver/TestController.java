@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 public class TestController {
 
-    @Value("${custom.message:Default message}")
+//    @Value("${custom.message:Default message}")
     private String customMessage;
 
-    @Value("${eureka.instance.hostname}")
+//    @Value("${eureka.instance.hostname}")
     private String hostname;
 
     public TestController() {

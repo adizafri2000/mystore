@@ -36,7 +36,7 @@ The Config Server is a critical component in a microservices architecture, provi
 
 ### **Example Scenario**
 
-Imagine a microservices architecture with services like `user-service`, `order-service`, and `inventory-service`. Instead of hardcoding configuration parameters in each service, the services retrieve their configuration from the Config Server.
+Imagine a microservices architecture with services like `customer-service`, `order-service`, and `inventory-service`. Instead of hardcoding configuration parameters in each service, the services retrieve their configuration from the Config Server.
 
 - **When `order-service` starts up**, it queries the Config Server for its configuration settings.
 - **When configuration changes are needed**, the new configuration is updated in the Config Server, and `order-service` can refresh its configuration without restarting.

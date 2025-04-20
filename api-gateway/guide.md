@@ -37,9 +37,9 @@ The API Gateway is a crucial component in a microservices architecture, acting a
 
 ### **Example Scenario**
 
-Imagine a microservices architecture with services like `user-service`, `order-service`, and `inventory-service`. The API Gateway routes client requests to the appropriate service and handles cross-cutting concerns.
+Imagine a microservices architecture with services like `customer-service`, `order-service`, and `inventory-service`. The API Gateway routes client requests to the appropriate service and handles cross-cutting concerns.
 
-- **When a client requests user information**, the API Gateway routes the request to `user-service`.
+- **When a client requests customer information**, the API Gateway routes the request to `customer-service`.
 - **When a client places an order**, the API Gateway routes the request to `order-service` and may aggregate responses from `inventory-service` to check stock availability.
 
 ### **In Summary**

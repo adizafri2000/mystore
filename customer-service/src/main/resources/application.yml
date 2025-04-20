@@ -3,9 +3,27 @@ spring:
     name: customer-service
   config:
     import: optional:configserver:http://localhost:8888  # Make the config server optional
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
 
 server:
   port: 8083
+
+springdoc:
+  openapi:
+    title: Customer Service API
+    description: Customer Service API
+    version: 1.0.0
+  swagger-ui:
+    path: /docs
 
 eureka:
   client:
