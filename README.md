@@ -17,7 +17,7 @@ This project demonstrates the implementation of a microservices-based architectu
 
 ## Technologies Used
 
-- **Java 17**
+- **Java 21**
 - **Spring Boot 3.3.4**
 - **Maven**
 
